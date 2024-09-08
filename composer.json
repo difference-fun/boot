@@ -1,7 +1,7 @@
 {
     "name" : "difference_fun/boot",
     "description" : "difference_fun/boot see https://difference.fun for detailed usage",
-    "type" : "library",
+    "type" : "package",
     "keywords" : ["node", "difference", "fun", "library", "framework", "boot", "difference.fun"],
     "homepage": "https://difference.fun",
     "require" : {
