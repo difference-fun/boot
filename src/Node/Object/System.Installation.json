@@ -1,0 +1,23 @@
+{
+    "Node": {
+        "#class": "System.Installation",
+        "type": "object",
+        "property": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "ctime",
+                "type": "integer"
+            },
+            {
+                "name": "mtime",
+                "type": "integer"
+            }
+        ]
+    },
+    "is.unique": [
+        "name"
+    ]
+}

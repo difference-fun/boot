@@ -1,0 +1,188 @@
+{
+  "name" : "ROLE_SYSTEM",
+  "rank" : 1,
+  "#class": "Account.Role",
+  "permission": [
+    {
+      "name": "System:Route:import",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:record",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:record.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:create",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:create.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:count",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:count.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:commit",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:delete.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:read",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:read.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:put",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:put.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:patch",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:patch.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:page",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:page.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:property.delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:list",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:list.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Route:rename",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:import",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:record",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:record.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:create",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:create.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:count",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:count.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:commit",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:delete.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:read",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:read.relation",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:put",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:put.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:patch",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:patch.many",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:page",
+      "attribute": [],
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:page.relation",
+      "attribute": [],
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:property.delete",
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:list",
+      "attribute": [],
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:list.relation",
+      "attribute": [],
+      "#class": "Account.Permission"
+    },
+    {
+      "name": "System:Installation:rename",
+      "attribute": [],
+      "#class": "Account.Permission"
+    }
+  ]
+}

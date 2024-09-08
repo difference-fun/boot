@@ -1,0 +1,15 @@
+{
+    "name" : "difference_fun/boot",
+    "description" : "difference_fun/boot see https://difference.fun for detailed usage",
+    "type" : "library",
+    "keywords" : ["node", "difference", "fun", "library", "framework", "boot", "difference.fun"],
+    "homepage": "https://difference.fun",
+    "require" : {
+        "difference_fun/framework": "*"
+    },
+    "license" : "MIT",
+    "authors" : [{
+        "name" : "Remco van der Velde",
+        "email" : "development@universeorange.com"
+    }]
+}

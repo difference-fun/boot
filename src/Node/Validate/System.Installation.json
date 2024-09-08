@@ -1,0 +1,93 @@
+{
+    "System": {
+        "Installation": {
+            "create": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "name": [
+                        {
+                            "is.unique": {
+                                "class": "System.Installation",
+                                "attribute": [
+                                    "name"
+                                ]
+                            }
+                        }
+                    ],
+                    "ctime": [
+                        {
+                            "integer": ">=1"
+                        }
+                    ],
+                    "mtime": [
+                        {
+                            "integer": ">=1"
+                        }
+                    ]
+                }
+            },
+            "put": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "name": [
+                        {
+                            "is.unique": {
+                                "class": "System.Installation",
+                                "attribute": [
+                                    "name"
+                                ]
+                            }
+                        }
+                    ],
+                    "ctime": [
+                        {
+                            "integer": ">=1"
+                        }
+                    ],
+                    "mtime": [
+                        {
+                            "integer": ">=1"
+                        }
+                    ]
+                }
+            },
+            "patch": {
+                "validate": {
+                    "uuid": [
+                        {
+                            "is.uuid": true
+                        }
+                    ],
+                    "?name": [
+                        {
+                            "is.unique": {
+                                "class": "System.Installation",
+                                "attribute": [
+                                    "name"
+                                ]
+                            }
+                        }
+                    ],
+                    "?ctime": [
+                        {
+                            "integer": ">=1"
+                        }
+                    ],
+                    "?mtime": [
+                        {
+                            "integer": ">=1"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
